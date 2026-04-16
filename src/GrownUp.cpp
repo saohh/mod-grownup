@@ -63,7 +63,7 @@ public:
         ApplyScale(player, false);
     }
 
-    void OnPlayerResurrect(Player* player, float /*restore_percent*/, bool /*applySickness*/) override
+    void OnPlayerResurrect(Player* player, float /*restore_percent*/, bool& /*applySickness*/) override
     {
         ApplyScale(player, false);
     }
